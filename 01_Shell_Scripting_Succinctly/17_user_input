@@ -1,0 +1,6 @@
+# Accepting User Input (STDIN)
+# The read command accepts STDIN.
+
+# Syntax:
+
+    read -p "PROMPT" VARIABLE

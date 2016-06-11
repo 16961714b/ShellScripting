@@ -1,0 +1,23 @@
+# In order to make the script executable, enter this command:
+
+$ chmod 755 HelloWorld_script.sh
+ 
+# chmod = change mode; a system call which is used to change the access permissions to file system objects (files and directories)
+# The three digits refer to permissions for the file owner, the group, and everyone else
+# 755 = allows everyone to read and execute the file, and the file owner is allowed to write to the file as well
+
+# #	rwx	Permission
+# 7	rwx	read, write and execute
+# 6	rw-	read and write
+# 5	r-x	read and execute
+# 4	r--	read only
+# 3	-wx	write and execute
+# 2	-w-	write only
+# 1	--x	execute only
+# 0	---	none
+
+# Execute the script in the terminal:
+
+$ ./HelloWorld_script.sh
+Hello world!
+$

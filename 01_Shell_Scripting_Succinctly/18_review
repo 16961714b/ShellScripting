@@ -1,0 +1,19 @@
+Summary
+
+# The first line of the script starts with the shebang #! and the /path/to/interpreter that should be used to execute the commands listed in the script
+
+    #!/path/to/interpreter
+
+# Assign a value to the VARIABLE:
+
+    VARIABLE_NAME="Value"
+
+# Accessing VARIABLE:
+
+    $VARIABLE_NAME
+    
+    ${VARIABLE_NAME}
+
+# Assign the output of a command to VARIABLE
+
+    VARIABLE_NAME=$(command)
